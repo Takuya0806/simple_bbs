@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background: lightgray;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+#container {
+    width: 700px;
+    margin: 30px auto;
+}
+
+.form {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+input[type="text"] {
+    margin-right: 20px;
+}
+
+.comment li {
+    line-height: 1.8em;
+}
